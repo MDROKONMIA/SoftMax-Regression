@@ -97,9 +97,10 @@ $$ w_{k} =\begin{bmatrix}
 
 Now we write it into following mathematical notation
 
-$$ {\sigma(z)}_{i} = \frac{e^{z_{i}}}{\sum_{j = 1}^{k}e^{z_{j}}} $$
+<!-- $$ {\sigma(z)}_{i} = \frac{e^{z_{i}}}{\sum_{j = 1}^{k}e^{z_{j}}} $$ -->
 
-$$ \sigma(z)_i = {e^{z_i}\over {\sum_{j=1}^k e^{z_j}}} $$
+$$ \sigma(z)_i $$
+<!-- = {e^{z_i}\over {\sum_{j=1}^k e^{z_j}}} $$ -->
 
 Where $e^{z_{i}} =$ standard exponential function for output vector,
 $e^{z_{j}} =$ standard exponential function of output vector, $k =$
