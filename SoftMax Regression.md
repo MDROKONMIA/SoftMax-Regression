@@ -1,7 +1,7 @@
 ---
 title: SoftMax Regression
 ---
-
+# SoftMaxRegression And Its Derivation
 Introduction
 
 In the previous chapter we introduce logistic regression that only
