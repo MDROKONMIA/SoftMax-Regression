@@ -64,7 +64,7 @@ $$\Rightarrow \ P\left( y = k \middle| x \right) = \frac{1}{\sum_{j = 1}^{k}e^{{
 By substitution, we get
 
 <!-- $$P\left( y = i|x \right) = \frac{e^{{xw}_{i}}}{\sum_{j = 1}^{k}e^{{xw}_{j}}}$$ -->
-$$ P\left( y = k \middle| x \right) = \frac{1}{\sum_{j = 1}^{k}e^{{xw}_{j}}}$$
+$$ P\left( y = k \middle| x \right) = \frac{e^{{xw}_{i}}}{\sum_{j = 1}^{k}e^{{xw}_{j}}}$$
 
 Where $w_{i} = \begin{bmatrix}
 \ldots & w_{0i} & \ldots \\
