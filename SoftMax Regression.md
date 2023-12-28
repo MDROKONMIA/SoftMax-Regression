@@ -82,6 +82,11 @@ w_{mi} \\
 \end{matrix} \\
 \end{bmatrix},\ m = number\ of\ features$
 
+$$ {\left\lbrack \matrix{2 & 3 \cr 4 & 5} \right\rbrack} 
+* {\left\lbrack \matrix{1 & 0 \cr 0 & 1} \right\rbrack}
+= \left\lbrack \matrix{2 & 3 \cr 4 & 5} \right\rbrack
+$$
+
 Now we write it into following mathematical notation
 
 $${\sigma(z)}_{i} = \frac{e^{z_{i}}}{\sum_{j = 1}^{k}e^{z_{j}}}$$
