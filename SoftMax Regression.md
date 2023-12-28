@@ -100,7 +100,6 @@ Now we write it into following mathematical notation
 <!-- $$ {\sigma(z)}_{i} = \frac{e^{z_{i}}}{\sum_{j = 1}^{k}e^{z_{j}}} $$ -->
 
 $$ \sigma(z)_i={{e^{xw_i}}\over {\sum_{j=1}^{k} e^{xw_j}}} $$
-<!-- = {e^{z_i}\over {\sum_{j=1}^k e^{z_j}}} $$ -->
 
 Where $e^{z_{i}} =$ standard exponential function for output vector,
 $e^{z_{j}} =$ standard exponential function of output vector, $k =$
@@ -113,7 +112,7 @@ $m$ =number of features
 Before proceed, let's gets introduced the indication function which
 output 1 if argument is true otherwise 0
 
-$$1\left\{ . \right\} = \left\{ \begin{array}{r}
+$$ 1\left\lbrace . \right\rbrace = \left\{ \begin{array}{r}
 1\ if\ y = i\ is\ true \\
 0\ other\ wise \\
 \end{array} \right.\ $$
