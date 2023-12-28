@@ -106,7 +106,6 @@ $e^{z_{j}} =$ standard exponential function of output vector, $k =$
 number of classes in the multiclass classifier, $\sigma =$ softmax,
 $m$ =number of features
 
-
 ## Mathematical intuition of SoftMax Regression
 
 Before proceed, let's gets introduced the indication function which
@@ -126,7 +125,7 @@ To get the likelihood on the training data, we need to compute all of
 the probabilities of $y = y⁽ⁱ⁾$ given $x⁽ⁱ⁾$ for i=1, 2, 3, ..., N. (N
 is the total number of training data)
 
-$$P\left( y^{(i)}|x^{(i)};\beta \right) = P\left( y = y^{(i)}|x^{(i)};\beta \right) = \prod_{k = 1}^{K}{P\left( y^{(i)} = k|x^{(i)};\beta \right)}^{1\left\{ y^{(i)} = k \right\}}$$
+$$P\left( y^{(i)}|x^{(i)};\beta \right) = P\left( y = y^{(i)}|x^{(i)};\beta \right) = \prod_{k = 1}^{K}{P\left( y^{(i)} = k|x^{(i)};\beta \right)}^{1\left\lbrace y^{(i)} = k \right\rbrace}$$
 
 To simplify the notation, we can write $\beta$ as an $K \times M$
 matrix, where each column $\beta^{(k)}$ corresponds to parameters for
