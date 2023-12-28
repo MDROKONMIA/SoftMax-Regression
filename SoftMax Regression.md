@@ -67,8 +67,9 @@ By substitution, we get
 
 $$ P(y=k|x)={{e^{xw_i}}\over {\sum_{j=1}^{k} e^{xw_j}}} $$
 
-Where $w_{i} = 
-\begin{bmatrix} 
+Where
+
+$w_{i} = \begin{bmatrix}
 \ldots & w_{0i} & \ldots\\
 \ldots & w_{1i} & \ldots\\
 \ldots & w_{2i} & \ldots\\
