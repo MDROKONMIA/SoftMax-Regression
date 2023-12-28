@@ -99,7 +99,7 @@ Now we write it into following mathematical notation
 
 <!-- $$ {\sigma(z)}_{i} = \frac{e^{z_{i}}}{\sum_{j = 1}^{k}e^{z_{j}}} $$ -->
 
-$$ \sigma(z)_i = \frac{e^{z_i}} {\sum_{j=1}^k e^{z_j}}$$
+$$ \sigma(z)_i = \frac{e^{z_i}}{\sum_{j=1}^k e^{z_j}}$$
 <!-- = {e^{z_i}\over {\sum_{j=1}^k e^{z_j}}} $$ -->
 
 Where $e^{z_{i}} =$ standard exponential function for output vector,
