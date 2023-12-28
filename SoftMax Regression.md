@@ -112,8 +112,8 @@ Before proceed, let's gets introduced the indication function which
 output 1 if argument is true otherwise 0
 
 $$ 1\left\lbrace . \right\rbrace = \left\{ \begin{array}{r}
-1\ if\ y = i\ is\ true \\
-0\ other\ wise \\
+1,\ if\ y = i\ is\ true \\
+0,\ other\ wise \\
 \end{array} \right.\ $$
 
 To derive the SoftMax regression model, we can start from the principle
