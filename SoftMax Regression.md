@@ -67,25 +67,15 @@ By substitution, we get
 
 $$ P(y=k|x)={{e^{xw_i}}\over {\sum_{j=1}^{k} e^{xw_j}}} $$
 
-Where $w_{i} = \begin{bmatrix}
-\ldots & w_{0i} & \ldots \\
-\cdots & w_{1i} & \ldots \\
-\begin{matrix}
-\ldots \\
-\ldots \\
-\end{matrix} & \begin{matrix}
- \vdots \\
-w_{mi} \\
-\end{matrix} & \begin{matrix}
-\ldots \\
-\ldots \\
-\end{matrix} \\
-\end{bmatrix},\ m = number\ of\ features$
-
-$$ {\left\lbrack \matrix{2 & 3 \cr 4 & 5} \right\rbrack} 
-* {\left\lbrack \matrix{1 & 0 \cr 0 & 1} \right\rbrack}
-= \left\lbrack \matrix{2 & 3 \cr 4 & 5} \right\rbrack
-$$
+Where $w_{i} = 
+\begin{bmatrix} 
+\ldots & w_{0i} & \ldots\\
+\ldots & w_{1i} & \ldots\\
+\ldots & w_{2i} & \ldots\\
+\ldots & \vdots & \ldots\\
+\ldots & w_{mi} & \ldots\\
+\end{bmatrix}
+$ ${m}$=number of features
 
 Now we write it into following mathematical notation
 
