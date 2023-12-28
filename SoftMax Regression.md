@@ -69,14 +69,31 @@ $$ P(y=k|x)={{e^{xw_i}}\over {\sum_{j=1}^{k} e^{xw_j}}} $$
 
 Where
 
-$w_{i} = \begin{bmatrix}
+<!-- $w_{i} = \begin{bmatrix}
 \ldots & w_{0i} & \ldots\\
 \ldots & w_{1i} & \ldots\\
 \ldots & w_{2i} & \ldots\\
 \ldots & \vdots & \ldots\\
 \ldots & w_{mi} & \ldots\\
-\end{bmatrix}
-$ ${m}$=number of features
+\end{bmatrix} -->
+
+$$ w_{k} =\begin{bmatrix}
+\begin{matrix}
+\ldots & w_{0k} & \ldots \\
+\end{matrix} \\
+\begin{matrix}
+\cdots & w_{1k} & \ldots \\
+\end{matrix} \\
+\begin{matrix}
+\begin{matrix}
+\cdots & w_{2k} & \ldots \\
+\end{matrix} \\
+ \vdots \\
+\begin{matrix}
+\cdots & w_{mk} & \ldots \\
+\end{matrix} \\
+\end{matrix} \\
+\end{bmatrix}$$
 
 Now we write it into following mathematical notation
 
@@ -85,9 +102,8 @@ $${\sigma(z)}_{i} = \frac{e^{z_{i}}}{\sum_{j = 1}^{k}e^{z_{j}}}$$
 Where $e^{z_{i}} =$ standard exponential function for output vector,
 $e^{z_{j}} =$ standard exponential function of output vector, $k =$
 number of classes in the multiclass classifier, $\sigma =$ softmax,
-$m =$number of features and
+$m$ =number of features
 
-For SoftMax Regression, for ith row and l class,
 
 ## Mathematical intuition of SoftMax Regression
 
