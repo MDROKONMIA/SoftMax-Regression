@@ -65,7 +65,9 @@ By substitution, we get
 
 <!-- $$P\left( y = i|x \right) = \frac{e^{{xw}_{i}}}{\sum_{j = 1}^{k}e^{{xw}_{j}}}$$ -->
 $$ P\left( y = k \middle| x \right) = \frac{e^{{xw}_{i}}}{\sum_{j = 1}^{k}e^{{xw}_{j}}}$$
+
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+
 $$ P(y=k|x)={{e^{xw_i}}\over {\sum_{j=1}^k e^{xw_j}}} $$
 
 Where $w_{i} = \begin{bmatrix}
