@@ -1,7 +1,8 @@
 ---
 title: SoftMax Regression
 ---
-# SoftMaxRegression And Its Derivation
+#SoftMaxRegression And Its Derivation
+
 Introduction
 
 In the previous chapter we introduce logistic regression that only
@@ -22,7 +23,7 @@ for all classes of each data point.
 
 Consider a classification problem which involved $k$ number of classes,
 x feature vector and $y$ is the corresponding class, where
-$y \in \left\{ 1,2,3,4,5,\ldots.,k \right\}$
+$y \in \left\lbrace 1,2,3,4,5,\ldots.,k \right\rbrace$
 
 Now we would like a probability of $y$ given $x$ , $P\left( y|x \right)$
 which is a vector of probabilities of $y$ given features $x$.
